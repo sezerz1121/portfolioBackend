@@ -110,7 +110,7 @@ const messageCreation = asyncHandler(async (req, res) => {
         to: 'tatsam242005@gmail.com',
         subject: 'New Message Received',
         text: message,
-        html: `<b>${message}</b>`,
+        html: `<h1>${name}</h1><b>${message}</b>`,
     };
 
     // Send the email
